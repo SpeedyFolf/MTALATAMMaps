@@ -30,13 +30,13 @@ Place your map in the **[LATAM]** folder, inside one of these subfolders:
 * **[DD]** -> Destruction Derby: Eliminate other players and try to be the last one standing!
 * **[TW]** -> Teamwork: Work as a team with a randomly selected group to try to be the first team to complete a circuit. Some team members will need to help other teammates so the team can complete the course.
 * **[MG]** -> Minigame: Compete against other players in a specific task on the map to win. The dynamics of the minigame will be explained to you when you play it.
-* **[F]** -> Footrace: Races that are fully or partially on-foot (beta).
+* **[F]** -> Footrace: Races in which you can exit your vehicle and collect checkpoints on foot (BETA).
 * **[RANDOM]** -> Randomizer: Races with some random factor, such as random vehicles, random handling, etc.
 
 ## Racetype tag
 Maps require information within the meta.xml for the server to get some custom information.
 
-Previously, map tags (*R/DD/TW/MG/SR*) were included directly in the map name. Now, please include them as a separate attribute, like this:
+Previously, map tags (*R/SR/DD/TW/MG/F*) were included directly in the map name. Now, please include them as a separate attribute, like this:
 ```xml
 <info gamemodes="race" type="map" name="Name" author="You" version="1.0" racetype="DD"></info>
 ```

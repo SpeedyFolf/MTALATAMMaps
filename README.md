@@ -31,12 +31,13 @@ Coloca tu mapa en la carpeta **[LATAM]**, dentro de alguna de estas subcarpetas:
 * **[DD]** -> Destruction Derby: ¡Elimina a otros jugadores e intenta ser el último en pie!
 * **[TW]** -> Teamwork: Trabaja en equipo con un grupo seleccionado aleatoriamente para intentar ser el primer equipo en completar un circuito. Algunos miembros del equipo deberán ayudar a otros compañeros para que el equipo pueda completar el recorrido.
 * **[MG]** -> Minigame: Compite contra otros jugadores en una tarea específica del mapa para ganar. Se te explicará la dinámica del minijuego cuando lo juegues.
+* **[F]** -> Footrace: Carreras en las que puedes salir de tu vehículo y recoger puntos de control a pie (BETA).
 * **[RANDOM]** -> Randomizer: Carreras con algún factor aleatorio, como vehículos aleatorios, handling aleatorio, etc.
 
 ## Etiqueta racetype
 Los mapas requieren información dentro del meta.xml para que el servidor obtenga cierta información personalizada.
 
-Anteriormente, las etiquetas de mapas (*R/DD/TW/MG/SR*) se incluían directamente en el nombre del mapa. Ahora, por favor, inclúyelas como un atributo separado, de esta manera:
+Anteriormente, las etiquetas de mapas (*R/SR/DD/TW/MG/F*) se incluían directamente en el nombre del mapa. Ahora, por favor, inclúyelas como un atributo separado, de esta manera:
 ```xml
 <info gamemodes="race" type="map" name="Nombre" author="Tú" version="1.0" racetype="DD"></info>
 ```
