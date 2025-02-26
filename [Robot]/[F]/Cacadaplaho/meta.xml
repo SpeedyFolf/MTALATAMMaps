@@ -1,5 +1,4 @@
 <meta>
-    <script src="nomusic.lua" type="server"></script>
     <info gamemodes="race" type="map" racetype="F" name="Cacadaplaho" author="S." version="1.0.0" description="This race will have you visit a couple of interiors: Two casinos, a dam, a plane, and a house."></info>
     <map src="af-cacadaplaho.map" dimension="0"></map>
     <settings>
@@ -27,6 +26,6 @@
         <setting name="#timeafterfirstfinish" value="[ -1 ]"></setting>
         <setting name="#rustlermachinegun" value='[ &quot;true&quot; ]'></setting>
     </settings>
-    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
-    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+    <script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
+    <script src="interiorMusic_c.lua" type="client" validate="true"></script>
 </meta>

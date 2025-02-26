@@ -1,6 +1,5 @@
 <meta>
     <min_mta_version server="1.5.8-9.20957"></min_mta_version>
-    <script src="customMapEditorScriptingExtension_s.lua" type="server"></script>
     <info gamemodes="race" type="map" racetype="F" name="Sunrise at Pier 69" author="S." version="1.0.0" description="Your Sunrise is too big and ugly to fit on the walkways, so you&apos;ll have to get out once you get there, so you can watch the sunrise."></info>
     <map src="af-pier69footrace.map" dimension="0"></map>
     <settings>
@@ -28,4 +27,5 @@
         <setting name="#timeafterfirstfinish" value="[ -1 ]"></setting>
         <setting name="#classicchangez" value='[ &quot;false&quot; ]'></setting>
     </settings>
+    <script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
 </meta>

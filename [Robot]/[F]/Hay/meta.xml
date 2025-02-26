@@ -1,6 +1,4 @@
 <meta>
-    <script src="Hay.lua" type="server"></script>
-    <script src="Hay_client.lua" type="client" validate="true"></script>
     <info gamemodes="race" type="map" racetype="F" name="Hay" author="Aeron. Edit for Race gamemode by S." version="1.0.0" description="Reach the top of the Haystack!"></info>
     <map src="af-hay.map" dimension="0"></map>
     <settings>
@@ -28,6 +26,7 @@
         <setting name="#timeafterfirstfinish" value="[ -1 ]"></setting>
         <setting name="#rustlermachinegun" value='[ &quot;true&quot; ]'></setting>
     </settings>
-    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
-    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+    <script src="mapEditorScriptingExtension_s.lua" type="server" validate="false"></script>
+    <script src="hay_s.lua" type="server" validate="false"></script>
+    <script src="hay_c.lua" type="client" validate="true"></script>
 </meta>
